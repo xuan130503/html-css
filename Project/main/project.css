@@ -55,20 +55,21 @@ header .logo:hover {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(./image/Hinh-nen-Minion-18.jpg) no-repeat;
+  background: url(./image/Screenshot\ 2024-11-24\ at\ 16.55.25.png) no-repeat;
   background-size: cover;
   background-position: center;
+  background-blend-mode: multiply;
 }
 .home .content {
   max-width: 800px;
 }
 .home .content h3 {
   font-size: 56px;
-  color: #333;
+  color:black;
 }
 .home .content span {
   font-size: 23px;
-  color: var(--pink);
+  color:black;
   padding: 16px 0;
   line-height: 1.5;
 }
@@ -110,7 +111,7 @@ header .logo:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 48px;
+  font-size: 32px;
   background: white;
   width: 100%;
   padding: 16px 32px;
@@ -122,7 +123,7 @@ header .logo:hover {
 }
 
 .about .row .content h3 {
-  font-size: 32px;
+  font-size: 24px;
   color: #333;
 }
 .about .row .content p {
